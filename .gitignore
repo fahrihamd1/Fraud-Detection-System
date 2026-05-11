@@ -1,0 +1,21 @@
+# Virtual environment — tidak perlu diupload
+.venv/
+
+# Dataset terlalu besar untuk GitHub (144MB)
+data/creditcard.csv
+
+# File model pickle lama
+models/xgboost_model.pkl
+
+# File notebook checkpoint
+notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# File sistem Windows
+Thumbs.db
+desktop.ini
+
+# File Python
+__pycache__/
+*.pyc
+*.pyo
